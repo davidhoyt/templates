@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	
+	
+	<version>0.0.1</version>
+	
+	<organization>
+		<name>David Hoyt</name>
+		<url>https://github.com/davidhoyt/</url>
+	</organization>
+	
+	<name>Library</name>
+	<description>Libraries in use by this product.</description>
+	
+	
+
+	<groupId>com.github.davidhoyt</groupId>
+	<artifactId>maven-settings-global-master</artifactId>
+	<packaging>pom</packaging>
+	<modelVersion>4.0.0</modelVersion>
+</project>

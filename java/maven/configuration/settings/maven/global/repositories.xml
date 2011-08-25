@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	
+	
+	<repositories>
+		<repository>
+			<id>local-mirror</id>
+			<name>Local Mirror</name>
+			<url>${maven.mirror.url}</url>
+		</repository>
+		<repository>
+			<id>scala-tools.org</id>
+			<name>Scala-Tools Maven Repository</name>
+			<url>http://scala-tools.org/repo-releases</url>
+		</repository>
+		<repository>
+			<id>repository.java.net</id>
+			<name>Java.net Maven Repository</name>
+			<url>http://download.java.net/maven/2/</url>
+		</repository>
+		<repository>
+			<id>google-maven-repository</id>
+			<name>Google Maven Repository</name>
+			<url>http://google-maven-repository.googlecode.com/svn/repository/</url>
+		</repository>
+		<repository>
+			<id>jboss.releases</id>
+			<name>JBoss Maven Repository</name>
+			<url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>github-davidhoyt-release-repo</id>
+			<name>Github David Hoyt Maven Repository</name>
+			<url>http://davidhoyt.github.com/mvn-repo/2/releases/</url>
+		</repository>
+	</repositories>
+	
+	<pluginRepositories>
+		<pluginRepository>
+			<id>local-mirror</id>
+			<name>Local Mirror</name>
+			<url>${maven.mirror.url}</url>
+		</pluginRepository>
+		<pluginRepository>
+			<id>scala-tools.org</id>
+			<name>Scala-Tools Maven Repository</name>
+			<url>http://scala-tools.org/repo-releases</url>
+		</pluginRepository>
+	</pluginRepositories>
+	
+	
+	
+	<artifactId>maven-settings-global-repositories</artifactId>
+	<packaging>pom</packaging>
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<version>0.0.1</version>
+		<groupId>com.github.davidhoyt</groupId>
+		<artifactId>maven-settings-global-mirrors</artifactId>
+		<relativePath>mirrors.xml</relativePath>
+	</parent>
+</project>

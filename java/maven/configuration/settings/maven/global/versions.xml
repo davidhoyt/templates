@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+
+	<properties>
+		<junit.version>4.8.2</junit.version>
+		<scala.version>2.9.0</scala.version>
+	</properties>
+
+	
+	
+	<artifactId>maven-settings-global-versions</artifactId>
+	<packaging>pom</packaging>
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<version>0.0.1</version>
+		<groupId>com.github.davidhoyt</groupId>
+		<artifactId>maven-settings-global-repositories</artifactId>
+		<relativePath>repositories.xml</relativePath>
+	</parent>
+</project>
