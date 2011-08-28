@@ -26,10 +26,19 @@
 	<packaging>pom</packaging>
 	<modelVersion>4.0.0</modelVersion>
 	
+	<dependencies>
+		<dependency>
+			<type>pom</type>
+			<version>${project.version}</version>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>maven-settings-global-project</artifactId>
+		</dependency>
+	</dependencies>
+	
 	<parent>
 		<version>0.0.1</version>
 		<groupId>com.github.davidhoyt</groupId>
 		<artifactId>maven-settings-global-project</artifactId>
-		<relativePath>project.xml</relativePath>
+		<relativePath>../project/pom.xml</relativePath>
 	</parent>
 </project>

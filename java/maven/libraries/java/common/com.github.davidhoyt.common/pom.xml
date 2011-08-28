@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<name>Common</name>
+	<artifactId>com.github.davidhoyt.common</artifactId>
+	<inceptionYear>2011</inceptionYear>
+
+	<properties>
+		<dir.top>../../../..</dir.top>
+	</properties>
+
+	<dependencies>
+		<!-- Build dependencies -->
+		<dependency>
+			<groupId>net.java.dev.jna</groupId>
+			<artifactId>jna</artifactId>
+			<version>3.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.netty</groupId>
+			<artifactId>netty</artifactId>
+			<version>3.2.5.Final</version>
+		</dependency>
+		
+		<!-- Runtime dependencies -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>0.9.29</version>
+			<scope>runtime</scope>
+		</dependency>
+	</dependencies>
+	
+	<build>
+		<plugins>
+			
+		</plugins>
+	</build>
+	
+	
+	
+	<packaging>jar</packaging>
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<version>0.0.1</version>
+		<groupId>com.github.davidhoyt</groupId>
+		<artifactId>maven-settings-global-build</artifactId>
+		<relativePath>../../../../configuration/settings/maven/global/build/pom.xml</relativePath>
+	</parent>
+</project>

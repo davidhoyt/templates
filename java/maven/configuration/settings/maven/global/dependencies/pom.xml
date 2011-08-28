@@ -15,6 +15,7 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.scala-tools.testing</groupId>
@@ -28,6 +29,13 @@
 			<version>1.3</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<type>pom</type>
+			<version>${project.version}</version>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>maven-settings-global-scm</artifactId>
+		</dependency>
 	</dependencies>
 	
 	
@@ -39,7 +47,7 @@
 	<parent>
 		<version>0.0.1</version>
 		<groupId>com.github.davidhoyt</groupId>
-		<artifactId>maven-settings-global-versions</artifactId>
-		<relativePath>versions.xml</relativePath>
+		<artifactId>maven-settings-global-scm</artifactId>
+		<relativePath>../scm/pom.xml</relativePath>
 	</parent>
 </project>

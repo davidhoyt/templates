@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	
+	
+	<version>1.0.0</version>
+	
+	<modules>
+		<module>common</module>
+	</modules>
+	
+	
+
+	<name>aggregate-libraries-java</name>
+	<groupId>com.github.davidhoyt.aggregate.libraries</groupId>
+	<artifactId>java</artifactId>
+	
+	<packaging>pom</packaging>
+	<modelVersion>4.0.0</modelVersion>
+</project>

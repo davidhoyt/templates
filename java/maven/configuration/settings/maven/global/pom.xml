@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	
+	
+	<version>1.0.0</version>
+	
+	<modules>
+		<module>master</module>
+		<module>mirrors</module>
+		<module>repositories</module>
+		<module>versions</module>
+		<module>scm</module>
+		<module>dependencies</module>
+		<module>project</module>
+		<module>reporting</module>
+		<module>build</module>
+	</modules>
+	
+	
+
+	<name>aggregate-configuration-maven-global</name>
+	<groupId>com.github.davidhoyt.aggregate.configuration.maven</groupId>
+	<artifactId>global</artifactId>
+	
+	<packaging>pom</packaging>
+	<modelVersion>4.0.0</modelVersion>
+</project>

@@ -9,9 +9,6 @@
 		<url>https://github.com/davidhoyt/</url>
 	</organization>
 	
-	<name>Library</name>
-	<description>Libraries in use by this product.</description>
-	
 	
 
 	<groupId>com.github.davidhoyt</groupId>
