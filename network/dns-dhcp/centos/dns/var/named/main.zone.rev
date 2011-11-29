@@ -1,0 +1,21 @@
+$ORIGIN .
+$TTL 2d ; 2 dats
+
+1.10.in-addr.arpa IN SOA ns1.mydomain.dev. my.company.gmail.com. (
+    2011071011 ; serial
+    7200       ; refresh (2 hours)
+    900        ; retry (15 minutes)
+    1857600    ; expire (3 weeks 12 hours)
+    8400       ; minimum (2 hours 20 minutes)
+)
+    NS ns1.mydomain.dev.
+    NS ns2.mydomain.dev.
+
+$ORIGIN 1.1.10.in-addr.arpa.
+1  PTR ns1.mydomain.dev.
+2  PTR git.subdomain.mydomain.dev.
+
+$ORIGIN 2.1.10.in-addr.arpa.
+1  PTR datastore1.subdomain.mydomain.dev.
+2  PTR datastore2.subdomain.mydomain.dev.
+

@@ -1,0 +1,26 @@
+
+$TTL 2d ;  
+$ORIGIN mydomain.dev.
+
+@ IN SOA ns1.mydomain.dev. my.company.gmail.com. (
+        2011071011 ; serial
+        2h         ; refresh
+        15M        ; retry
+        3W12h      ; expire
+        2h20M      ; minimum TTL
+)
+
+            IN NS    ns1.mydomain.dev.
+            IN NS    ns2.mydomain.dev.
+            IN MX 10 mail.mydomain.dev.
+
+ns1         IN  A    10.1.1.1
+ns2         IN  A    10.1.1.1
+mail        IN  A    10.1.1.1
+
+; subdomain
+$ORIGIN subdomain.mydomain.dev.
+git         IN  A    10.1.1.2
+datastore1  IN  A    10.1.2.1
+datastore2  IN  A    10.1.2.2
+
